@@ -1,5 +1,5 @@
 # 912A - Tricky Alchemy
-[Link](http://codeforces.com/contest/912/submission/42449770)
+[Link](http://codeforces.com/contest/912/submission/42449770)  
 The problem is to count how many more crystals is needed.
 To solve this, we calculate the total of required crystals to the balls.
 
@@ -12,7 +12,7 @@ If it is larger, reduce the required with the existing crystals then add it to t
 
 
 # 854A - Fraction
-[Link](http://codeforces.com/contest/854/submission/42413236)
+[Link](http://codeforces.com/contest/854/submission/42413236)  
 In this problem, to determine maximum possible proper irreducible fraction,
 we simply divide the sum by 2
 ```
@@ -41,7 +41,7 @@ if (sum%2!=0) :
 ```
 
 # 988A - Diverse Team
-[Link](http://codeforces.com/contest/988/submission/42449381)
+[Link](http://codeforces.com/contest/988/submission/42449381)  
 For this problem, I created three array.
 For the student, the team member, and the index.
 I also created a counter to count how many different student that is already added to the team.
