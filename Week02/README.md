@@ -1,8 +1,7 @@
-I use quickSort for all the problem.
-
 # 230A - Dragons
 [Link](http://codeforces.com/contest/230/submission/42761998)  
 I create two arrays for the dragon's strength and the bonus.
+I use quickSort for the problem.
 ```
 quickSort(dragonStrength, dragonBonus, 0, n-1);
 ```
@@ -21,7 +20,8 @@ if(strength>dragonStrength[i]){
     }
 ```
 # 291A - Spyke Talks
-[Link](http://codeforces.com/contest/291/submission/42763149)
+[Link](http://codeforces.com/contest/291/submission/42767522)
+I use mergeSort for the problem.
 In this problem, I first sort all the numbers.
 After that, I prepare three variable current, connect, counter. 
 Current means the current value that is being counted since number with the same value will be in sequence.
