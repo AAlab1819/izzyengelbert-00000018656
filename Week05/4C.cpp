@@ -13,24 +13,24 @@ int main(){
 
     int n;
     cin>>n;
-    struct node *usernames[n] = (struct node*)malloc(n * sizeof(struct node));
+    struct node usernames[n];
     for(int i=0; i<n; ++i){
-        usernames[i]->total = 0;
-        usernames[i]->name = "empty";
+        usernames[i].total = 0;
+        usernames[i].name = "empty";
     }
     string responses[n];
     for(int i=0; i<n; ++i){
         string temp;
         cin>>temp;
         for(int j=0; j<n; ++j){
-            if(usernames[j]->name == "empty"){
-                usernames[j]->name = temp;
+            if(usernames[j].name == "empty"){
+                usernames[j].name = temp;
                 responses[i] = "OK";
                 break;
-            }else if(usernames[j]->name == temp){
-                usernames[j]->total += 1;
+            }else if(usernames[j].name == temp){
+                usernames[j].total += 1;
                 char buffer[sizeof(int)*8+1];
-                responses[i] = temp + itoa(usernames[j]->total, buffer, 10);
+                responses[i] = temp + itoa(usernames[j].total, buffer, 10);
                 break;
             }
         }
