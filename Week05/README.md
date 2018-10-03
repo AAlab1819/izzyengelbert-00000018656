@@ -17,3 +17,11 @@ Then, I create a function to reduce the number of leaf again since and also mark
 Then run a for loop again to check every root and check if there is any root with leaf less than 3.
 If there is it will return false and break the loop and the result is No, else the result is Yes.
 
+# 4C - Registration system
+[Link](http://codeforces.com/contest/913/submission/43643034)
+
+For this problem I use a map of string and integer.
+I run a for loop, then check the input. If the username with this input is 0, then there is no username with this name before. So print output OK and add 1 to username with this input.
+Else, output username with this input + then total username that exist with this name then add 1.
+
+
