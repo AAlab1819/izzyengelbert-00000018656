@@ -1,5 +1,5 @@
 # 731A - Coupons and Discounts
-[Link](http://codeforces.com/contest/731/submission/44766021)  
+[Link](http://codeforces.com/contest/731/submission/44767810)  
 
 In this problem we just need to check 4 conditions :
 - if the current value is zero and there is an active coupons, then the answer is NO.

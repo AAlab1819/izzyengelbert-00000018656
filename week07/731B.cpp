@@ -14,6 +14,7 @@ int main(){
     for(int i=0; i<n; ++i){
         if((a[i] == 0 && prevCoup!=0) || (i==n-1 && (a[i]-prevCoup)%2 != 0)){
             ans = false;
+            break;
         }else if((a[i]-prevCoup)%2 == 0){
             prevCoup=0;
         }else if((a[i]-prevCoup)%2 != 0 && i!=n-1){
